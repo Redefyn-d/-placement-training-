@@ -1,7 +1,7 @@
 #include <stdio.h>
 int prime_check(int a){
     int c=0;
-    for (int i=1;i<=a;i++){
+    for (int i=2;i<=a;i++){
         if (a%i==0){
             c+=1;
         }
