@@ -6,4 +6,4 @@ for i in range(4):
     lst.append([name,age])
 for i in lst:
     dict[i[0]]=i[1]
-print(max(dict.keys()))
+print(max(dict.values()))
