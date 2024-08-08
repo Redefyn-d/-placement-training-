@@ -1,6 +1,6 @@
 def odd_check(lst):
     for i in lst:
-        if i%2==0:
+        if i%2!=0:
             print(i)
         else:
             continue
